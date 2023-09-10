@@ -36,8 +36,8 @@ bcdedit /set vm No
 bcdedit /timeout 8
 bcdedit /set nx alwaysoff
 powercfg -h off
-label C: reb0rnOS
-bcdedit /set {current} description "reb0rnOS"
+label C: W10-1803
+bcdedit /set {current} description "W10-1803"
 
 cls & echo "Disabling USB Powersavings"
 for %%a in (
